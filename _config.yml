@@ -1,10 +1,26 @@
 layout_spectrum: 0
-typography_spectrum: 0.8617201
+name: First visual ltd
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
-  lightness: 0.4578415
   brandStrength: 0.8225389
+  lightness: 0.4578415
   saturation: 0.372162
   rhythmicContrast: 0.7428331
   brandColors:
+    - '#FFFFFF'
     - '#000000'
-name: First visual ltd
+    - '#6E6E6E'
+    - '#C6C6C6'
+    - '#393939'
+typography_spectrum: 0.8617201
